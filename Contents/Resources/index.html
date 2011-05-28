@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Battle.net Game Database</title>
+		<meta name="robots" content="index,follow" />
+		
+		<meta name="description" content="Browse a database of past and present Battle.net games easier than in-game." />
+		<meta name="keywords" content="battle.net, game list, diablo, d2, bnet" />
+
+		<link rel="stylesheet" type="text/css" href="chat/css/style.css" />
+		<link rel="stylesheet" href="chat/example/css/dark.yshout.css" />
+		
+		<link type="text/css" rel="stylesheet" href="css/main.css" media="screen" />
+		<style type="text/css">
+			*
+			{
+				margin: 0pt;
+				padding: 0pt;
+			}
+			
+			html
+			{
+				width: 100%;
+				height: 100%;
+			}
+			
+			body
+			{
+				height: 100%;
+				width: 100%;
+				background-color: #000;
+				color: #FFF;
+				text-align: center;
+			}
+			
+			body, table
+			{
+				font-family: Cambria Bold, Verdana, Arial, Helvetica, sans-serif;
+				font-size: 62.5%;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				font-size-adjust: none;
+				text-align: left;
+			}
+			
+			table, input
+			{
+				font-size: 1.3em;
+			}
+			
+			input, table, img
+			{
+				border: 0pt;
+			}
+
+			#search .box
+			{
+				position: absolute;
+				top: 4px;
+				left: 2px;
+				width: 101px;
+				padding:2px;
+				color: #9c8d59;
+			}
+			
+			a
+			{
+				text-decoration: none;
+			}
+			
+			a:hover
+			{
+				text-decoration: none;
+			}
+			
+			#wrapper
+			{
+				padding:10px;
+				margin: 0 auto;
+				width: 50%;
+			}
+		</style>
+		<script>
+			function d2() {
+				var w = Titanium.UI.createWindow("app://d2/index.html");
+				w.setUsingChrome(false);
+				w.open();
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<br /><br /><br /><br /><br /><br /><br />
+			<center><h1>CHOOSE GAME</h1></center>
+			<br /><br /><br /><br />
+			<a href="javascript:;" title="Diablo 2 Game Database" onclick="d2();"><img src="images/d2-selection.png" /></a>
+		</div>
+	</body>
+</html>
+

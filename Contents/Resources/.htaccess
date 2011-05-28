@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteCond %{HTTP_HOST} !^(www\.)?bnetdb\.com [NC]
+	RewriteCond %{HTTP_HOST} ^(www\.)?([^.]+)\.bnetdb\.com
+	RewriteRule ^(.*)$ /%2/$1 [L]
+
+</IfModule>
+
